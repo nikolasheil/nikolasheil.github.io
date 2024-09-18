@@ -1,9 +1,9 @@
 ---
-title: "Thomas Rose"
+title: "Nikolas Heil"
 about:
   id: template-area
   template: jolla
-  image: profile.png
+  image: 
   links:
     - icon: twitter
       text: twitter
@@ -30,9 +30,9 @@ Here goes the information about you.
 ## Legal Notice
 
 Provider according to § 5 TMG is:  
-Thomas Rose  
-Fahrenheitstr. 52  
-44879 Bochum  
+Nikolas Heil
+
+Bochum  
 Germany  
 
 Phone +49 1522 3176524  
