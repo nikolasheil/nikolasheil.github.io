@@ -56,13 +56,13 @@ The most common command to create a uniform distribution of random numbers in R 
 
 By default, `runif()` samples the range from 0 to 1: 
 
-``` {r}
+``` {python}
 
-runif(1)
+a = 100000000000
+print(len(a))
+```
 
-runif(10)
 
-``` 
 
 This range can be changed by providing additional arguments: 
 
