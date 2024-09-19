@@ -1,7 +1,7 @@
 ---
-title: "Random report"
+title: "Random Test report"
 author: 
-  - name: Jane Doe
+  - name: John Doe
     orcid: 0000-0001-2345-6789
     corresponding: true
     email: Jane.Doe@example.org
@@ -56,6 +56,7 @@ The most common command to create a uniform distribution of random numbers in R 
 
 By default, `runif()` samples the range from 0 to 1: 
 
+
 ``` {python}
 
 a = 100000000000
@@ -68,39 +69,3 @@ data = pd.read_csv(https://raw.githubusercontent.com/Hezel2000/GeoCosmoChemDataA
 print(data)
 
 ```
-
-
-
-This range can be changed by providing additional arguments: 
-
-
-
-# Normally distributed random numbers
-
-R cannot also create numbers from a normal distribution with the command `rnorm()` (= **r**andom **normal**). The syntax of the function is similar to `runif()` but instead of defining minimum and maximum of a function, we give the mean and the standard deviation ($sd$) of the normal distribution: 
-
-
-
-And performance in repeated identical draws. However, this time we will draw 50 times because 10 is too few to make the normal distribution visible: 
-
-
-
-
-If you forgot how the standard deviation is calculated (and because I wanted to include a more complex formula for instructive purposes): 
-
-$$
-\sigma = \sqrt{\frac{\sum{(x_i-\mu)^2}}{N}} 
-$$
-with: 
-
-| Symbol || Explanation |
-|----:|----|:----|
-|$\sigma$| = | Population standard deviation| 
-|$N$| = | Size of population |
-|x~i~| = | each value from the population |
-|µ| = | mean of the population |
-
-# Conclusions
-As expected, the number from random distributions are pretty random 
-
-Have fun while doing the exercise and don't hesitate to ask for help! 
