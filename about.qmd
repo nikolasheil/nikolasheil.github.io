@@ -3,7 +3,7 @@ title: "Nikolas Heil"
 about:
   id: template-area
   template: jolla
-  image: 
+#  image: 
   links:
     - icon: twitter
       text: twitter
